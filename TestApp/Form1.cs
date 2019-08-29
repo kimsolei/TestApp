@@ -19,6 +19,7 @@ namespace TestApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Updated from other site!");
             int row =6, col=7;
             for (int i = 0; i < row; i++)
             {
